@@ -24,6 +24,12 @@ pre{
 	width:100%;
 	text-align:right;
 }
+.villageois{
+	border-left: 3px solid red;
+}
+.fermier{
+	border-left: 3px solid green;
+}
 /*.blockCenter{
 	display:block;
 	width:500px;
