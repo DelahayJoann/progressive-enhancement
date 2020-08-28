@@ -2,16 +2,47 @@ body{
 	width:90%;
 	margin-left:5%;
 	font-size:12px;
+	background: -webkit-linear-gradient(44deg, rgb(209, 222, 233), rgb(174, 174, 174));
+	background: linear-gradient(44deg, rgb(209, 222, 233), rgb(174, 174, 174));
+	font-family: Rockwell;
+	color: DarkRed;
+	line-height:3em;
+	/*background-image:url("bien_mal.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:bottom right;*/
+}
+pre{
+	font-family: Rockwell;
+	color: DarkRed;
+}
+
+#italique_q  q{
+	font-style:italic;
 }
 .alignright{
 	width:100%;
 	text-align:right;
 }
+/*.blockCenter{
+	display:block;
+	width:500px;
+	min-width:10px;
+	margin-left:auto;
+	margin-right:auto;
+}*/
+pre {
+    white-space: pre-wrap;   
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap;     
+    white-space: -o-pre-wrap;  
+    word-wrap: break-word;    
+}
 blockquote{
 	width:50%;
 	margin-left:25%;
 	font-size:160%;
-	background-color:WhiteSmoke;
+	background-color:Gainsboro;
 	text-align:center;
 	border-left:3px solid #842e1b;
 	padding:30px;
@@ -35,19 +66,29 @@ figcaption {
 	font-size:150%;
 }
 img{
+	display:block;
 	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+figure > img{
+	width:100%;
 	object-fit:contain;
 }
 p,li{
 	font-size: 16px;
-	font-family: Rockwell;
-	color: DarkRed;
 }
-h1, h2,h3{
+p{
+	width:100%;
+}
+li{
+	list-style: inside;
+}
+h1, h2, h3{
 	text-align:center;
 	text-decoration:underline;
 }
-h2,h3{
+h2, h3{
 	text-decoration:none;
 }
 a:link{
@@ -61,4 +102,41 @@ a:active{
 }
 a:hover{
 	color:yellow;
+}
+#tablelayout {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	min-width:300px;
+	width: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#tablelayout td, #tablelayout th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#tablelayout tr td, #tablelayout tr th{
+	text-align:center;
+	vertical-align: center;
+	white-space: nowrap;
+}
+
+#tablelayout tr:nth-child(even){
+	background-color: #f2f2f2;
+	}
+
+#tablelayout tr:hover {
+	background-color: #ddd;
+	}
+
+#tablelayout th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4CAF50;
+  color: white;
+}
+#bottom{
+	margin-bottom:50px;
 }
