@@ -4,7 +4,7 @@ body{
 	font-size:12px;
 	background: -webkit-linear-gradient(44deg, rgb(209, 222, 233), rgb(174, 174, 174));
 	background: linear-gradient(44deg, rgb(209, 222, 233), rgb(174, 174, 174));
-	font-family: Rockwell;
+	font-family: url(./Open_Sans/OpenSans-Regular.ttf);
 	color: DarkRed;
 	line-height:3em;
 	/*background-image:url("bien_mal.jpg");
