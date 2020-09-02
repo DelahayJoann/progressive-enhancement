@@ -1,0 +1,96 @@
+/*img, div, figure, p, figcaption, a, article, h2, span, h1{
+    border: thin solid rgb(255, 0, 0);
+}*/
+
+body{
+    width: 90%;
+    margin: 0px auto;
+    background-color: rgb(37, 32, 32);
+    color: rgb(42, 33, 126);
+}
+
+h1, h2, h3{
+    display: block;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    border: 3px solid black;
+}
+
+h1{
+    background-color: rgb(77, 63, 114);
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+}
+h2{
+    background-color: rgb(104, 90, 141);
+    width: 80%;
+    margin: 0px auto;
+}
+h3{
+    background-color: rgb(125, 108, 170);
+    width: calc(60% + 10px);
+    margin: 0px auto;
+}
+
+img{
+    filter: brightness(0.75);
+    margin: 0px 10px 0px 10px;
+    width: 50%;
+}
+.imgCenter{
+    display: block;
+    margin: 0px auto;
+}
+.p_intro{
+    width: 60%;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+article{
+    width: 60%;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 0px 10px 0px 10px;
+}
+figure{
+    overflow: hidden;
+    background-color: rgb(175, 177, 177);
+    color: black;
+}
+.p_intro, article{
+    background-color: rgb(147, 156, 156);
+}
+
+figcaption{
+    display: inline-block;
+    width: 100%;
+}
+
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float: right;
+}
+
+.textAlignLeft{
+    text-align: left;
+}
+.textAlignRight{
+    text-align: right;
+}
+#lienPoliceCinema{
+    display: inline-block;
+    width: 100%;
+}
+footer{
+    color: white;
+}
+footer > a:link {
+    color: white;
+    padding-bottom: 50px;
+}
